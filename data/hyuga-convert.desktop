@@ -1,0 +1,18 @@
+# Copyright (C) 2026 Telona Hyuga
+# SPDX-License-Identifier: GPL-3.0-or-later
+[Desktop Entry]
+Type=Application
+Name=Hyuga Convert
+GenericName=Video and Image Converter
+GenericName[ru]=Конвертер видео и изображений
+Comment=Convert videos and images locally with FFmpeg
+Comment[ru]=Локальная конвертация видео и изображений с помощью FFmpeg
+Exec=hyuga-convert %f
+Icon=hyuga-convert
+Terminal=false
+Categories=AudioVideo;Video;
+Keywords=convert;converter;video;image;ffmpeg;mp4;png;jpg;
+Keywords[ru]=конвертер;видео;изображение;формат;ffmpeg;
+StartupNotify=true
+StartupWMClass=hyuga-convert
+MimeType=image/png;image/jpeg;image/webp;image/bmp;image/x-bmp;image/tiff;image/gif;image/x-tga;image/x-portable-pixmap;image/x-portable-graymap;image/x-portable-bitmap;image/x-portable-anymap;video/mp4;video/x-m4v;video/x-matroska;video/webm;video/x-msvideo;video/quicktime;video/mpeg;video/mp2t;video/x-flv;video/x-ms-wmv;video/3gpp;video/3gpp2;video/ogg;video/x-ms-asf;video/x-f4v;

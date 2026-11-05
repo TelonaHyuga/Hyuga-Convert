@@ -1,0 +1,4 @@
+sudo pacman -S --needed base-devel gtk3 ffmpeg
+make
+
+sudo make install
